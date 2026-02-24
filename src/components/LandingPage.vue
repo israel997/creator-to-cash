@@ -6,7 +6,7 @@
     <ProblemsSection />
     <div class="w-full my-0">
       <img src="/images/21.png" alt="Illustration formation IA" class="w-full h-auto object-cover shadow-xl hidden sm:block" />
-      <img src="/images/2.png" alt="Illustration formation IA mobile" class="w-full h-auto object-cover shadow-xl sm:hidden" />
+      <img src="/images/22.png" alt="Illustration formation IA mobile" class="w-full h-auto object-cover shadow-xl sm:hidden" />
     </div>
     <TransformationSection />
     <ContentSection />

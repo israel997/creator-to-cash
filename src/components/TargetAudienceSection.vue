@@ -17,7 +17,7 @@
           </h3>
           <ul class="space-y-4">
             <li class="text-gray-700 leading-relaxed pl-8 relative before:content-['✓'] before:absolute before:left-0 before:text-2xl before:text-green-500 before:font-bold">Vous êtes entrepreneur, freelance ou créateur de contenu</li>
-            <li class="text-gray-700 leading-relaxed pl-8 relative before:content-['✓'] before:absolute before:left-0 before:text-2xl before:text-green-500 before:font-bold">Vous visez les 1M de revenus d'ici décembre</li>
+            <li class="text-gray-700 leading-relaxed pl-8 relative before:content-['✓'] before:absolute before:left-0 before:text-2xl before:text-green-500 before:font-bold">Vous visez les 1M de revenus d'ici <span class="font-bold underline">décembre {{ currentYear }}</span></li>
             <li class="text-gray-700 leading-relaxed pl-8 relative before:content-['✓'] before:absolute before:left-0 before:text-2xl before:text-green-500 before:font-bold">Vous voulez être visible sur les réseaux sans y passer des heures</li>
             <li class="text-gray-700 leading-relaxed pl-8 relative before:content-['✓'] before:absolute before:left-0 before:text-2xl before:text-green-500 before:font-bold">Vous souhaitez maitriser les Business 3.0 (agents et outils IA)</li>
             <li class="text-gray-700 leading-relaxed pl-8 relative before:content-['✓'] before:absolute before:left-0 before:text-2xl before:text-green-500 before:font-bold">Vous voulez un système simple et reproductible</li>
@@ -46,8 +46,11 @@
 </template>
 
 <script setup>
+import { ref } from 'vue'
 import { useUserName } from '../composables/useUserName'
+
 const { userName } = useUserName()
+const currentYear = ref(new Date().getFullYear())
 </script>
 
 <style scoped>

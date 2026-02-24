@@ -8,15 +8,14 @@
 
       <div class="bg-white/10 backdrop-blur-lg border-2 border-accent/30 rounded-3xl p-12 mb-10">
         <div class="mb-8">
-          <span class="inline-block bg-accent text-gray-900 px-5 py-2 rounded-full font-bold mb-5">OFFRE PROMO EXCLUSIVE</span>
+          <span class="inline-block bg-accent text-gray-900 px-5 py-2 rounded-full font-bold mb-5">OFFRE EXCLUSIVE</span>
           <div class="flex justify-center items-center gap-5 mb-3 flex-wrap">
-            <span class="text-3xl line-through opacity-60">40 000 FCFA</span>
-            <span class="text-6xl font-black text-accent">8 999 FCFA</span>
+            <span class="text-2xl line-through opacity-60">75 000 FCFA</span>
+            <span class="text-4xl font-black text-accent">30 000 FCFA</span>
           </div>
-          <span class="block text-base font-semibold text-accent uppercase tracking-wider">Prix normal rétabli dans 24 heures</span>
         </div>
 
-        <a href="https://formations-pro.mymaketou.store/products/devenir-pro-en-creation-de-contenu-ia" target="_blank" rel="noopener" class="w-full inline-block text-center bg-accent text-gray-900 text-lg md:text-2xl font-extrabold py-4 md:py-6 px-4 md:px-12 rounded-2xl md:rounded-full hover:scale-105 hover:shadow-2xl hover:shadow-accent/50 transition-all duration-200 mb-8 uppercase tracking-wide focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-accent animate-bounce [animation-duration:1.5s]">
+        <a href="https://formations-pro.mymaketou.store/products/devenir-pro-en-creation-de-contenu-ia-7" target="_blank" rel="noopener" class="w-full inline-block text-center bg-accent text-gray-900 text-lg md:text-2xl font-extrabold py-4 md:py-6 px-4 md:px-12 rounded-2xl md:rounded-full hover:scale-105 hover:shadow-2xl hover:shadow-accent/50 transition-all duration-200 mb-8 uppercase tracking-wide focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-accent animate-bounce [animation-duration:1.5s]">
           Je démarre maintenant
         </a>
 

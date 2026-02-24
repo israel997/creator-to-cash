@@ -15,7 +15,7 @@
             </div>
             <div>
               <strong class="block text-lg font-bold text-gray-900">Formation complète (Texte + Vidéo)</strong>
-              <p class="text-gray-600">2 modules progressifs (+2h de contenu)</p>
+              <p class="text-gray-600">4 modules progressifs (+2h de contenu)</p>
             </div>
           </div>
 
@@ -38,7 +38,7 @@
               </svg>
             </div>
             <div>
-              <strong class="block text-lg font-bold text-gray-900">2 ebooks complets</strong>
+              <strong class="block text-lg font-bold text-gray-900">+4 ebooks complets</strong>
               <p class="text-gray-600">Contenant des stratégies que j'utilise</p>
             </div>
           </div>
@@ -84,27 +84,20 @@
           <div class="grid grid-cols-1 md:grid-cols-2 gap-5 mb-8">
             <div class="text-center p-6 bg-gray-200 rounded-xl">
               <span class="block text-sm font-semibold uppercase tracking-wider text-gray-600 mb-2">Prix normal</span>
-              <span class="block text-2xl font-bold line-through text-gray-400">40 000 FCFA</span>
+              <span class="block text-2xl font-bold line-through text-gray-400">75 000 FCFA</span>
             </div>
             <div class="text-center p-6 bg-gradient-to-r from-accent to-yellow-300 rounded-xl">
-              <span class="block text-sm font-semibold uppercase tracking-wider text-gray-900 mb-2">Prix promo</span>
-              <span class="block text-4xl font-black text-gray-900 mb-2">8 999 FCFA</span>
-              <span class="block text-sm font-semibold text-red-800">Vous économisez 31 000 FCFA</span>
+              <span class="block text-sm font-semibold uppercase tracking-wider text-gray-900 mb-2">Prix de démarrage</span>
+              <span class="block text-4xl font-black text-gray-900 mb-2">30 000 FCFA</span>
+              <span class="block text-sm font-semibold text-red-800">Vous économisez 45 000 FCFA</span>
             </div>
           </div>
 
-          <div class="bg-white p-6 rounded-xl mb-8 border-l-4 border-primary">
-            <p class="font-bold text-gray-900 mb-3">Pourquoi ce prix ?</p>
-            <p class="text-gray-600 mb-3">
-              Cette promo est offerte pour permettre à ceux qui veulent se lancer de le faire à prix réduit. 
-              Le prix repassera à 40 000 FCFA dans :
-            </p>
-            <p class="text-2xl md:text-3xl font-bold text-red-600 text-center">{{ countdown }}</p>
-          </div>
+          
 
-          <a href="https://formations-pro.mymaketou.store/products/devenir-pro-en-creation-de-contenu-ia" target="_blank" rel="noopener" class="w-full inline-block text-center bg-blue-700 text-white text-lg md:text-xl font-bold py-4 md:py-5 px-4 md:px-10 rounded-2xl md:rounded-full hover:scale-105 hover:shadow-2xl hover:shadow-[#764ba2]/40 transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-700 animate-bounce [animation-duration:1.5s]">
-                      Oui, je veux accéder à la formation pour 30 000 FCFA
-                    </a>
+          <a href="https://formations-pro.mymaketou.store/products/devenir-pro-en-creation-de-contenu-ia-7" target="_blank" rel="noopener" class="w-full inline-block text-center bg-blue-700 text-white text-base md:text-lg font-bold py-3 md:py-4 px-4 md:px-8 rounded-xl hover:scale-105 hover:shadow-xl hover:shadow-[#764ba2]/40 transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-700">
+            Rejoindre l'accompagnement maintenant
+          </a>
         </div>
       </div>
     </div>

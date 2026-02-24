@@ -24,7 +24,7 @@
         <div class="text-2xl md:text-3xl font-bold text-red-500">{{ countdown }}</div>
       </div>
 
-      <a href="https://formations-pro.mymaketou.store/products/devenir-pro-en-creation-de-contenu-ia" target="_blank" rel="noopener" class="bg-accent text-gray-900 text-base md:text-lg font-bold py-3 px-6 md:py-4 md:px-10 rounded-full hover:scale-105 hover:shadow-2xl hover:shadow-accent/40 transition-all duration-200 mb-4 inline-block">
+      <a href="https://formations-pro.mymaketou.store/products/devenir-pro-en-creation-de-contenu-ia-7" target="_blank" rel="noopener" class="bg-accent text-gray-900 text-base md:text-lg font-bold py-3 px-6 md:py-4 md:px-10 rounded-full hover:scale-105 hover:shadow-2xl hover:shadow-accent/40 transition-all duration-200 mb-4 inline-block">
         Je rejoins l'accompagnement maintenant
       </a>
 

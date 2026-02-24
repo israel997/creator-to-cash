@@ -7,8 +7,8 @@
       
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
         <div class="bg-white p-9 rounded-xl text-center shadow-md hover:shadow-xl hover:-translate-y-1 transition-all border border-gray-300">
-          <div class="w-16 h-16 mx-auto mb-5 bg-yellow-600 rounded-full flex items-center justify-center">
-            <svg class="w-8 h-8 text-yellow-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <div class="w-16 h-16 mx-auto mb-5 bg-yellow-100 rounded-full flex items-center justify-center">
+            <svg class="w-8 h-8 text-yellow-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
             </svg>
           </div>
@@ -34,6 +34,16 @@
           </div>
           <h3 class="text-xl font-bold mb-3 text-gray-900">Accès à vie</h3>
           <p class="text-gray-600">Payez une fois, accédez pour toujours. Mises à jour incluses sans frais supplémentaires.</p>
+        </div>
+
+        <div class="bg-white p-9 rounded-xl text-center shadow-md hover:shadow-xl hover:-translate-y-1 transition-all border border-gray-300">
+          <div class="w-16 h-16 mx-auto mb-5 bg-purple-100 rounded-full flex items-center justify-center">
+            <svg class="w-8 h-8 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path>
+            </svg>
+          </div>
+          <h3 class="text-xl font-bold mb-3 text-gray-900">Accompagnement personnel</h3>
+          <p class="text-gray-600">30 jours d'accompagnement pour vous aider à vous positionner et à rentabiliser votre offre.</p>
         </div>
 
         <div class="bg-white p-9 rounded-xl text-center shadow-md hover:shadow-xl hover:-translate-y-1 transition-all border border-gray-300">
