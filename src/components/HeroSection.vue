@@ -1,6 +1,11 @@
 <template>
-  <section class="bg-[#0c1844] text-white py-16 px-5 text-center">
-    <div class="max-w-3xl mx-auto">
+  <section class="bg-gradient-to-br from-[#0c1844] to-blue-800 text-white py-16 px-5 text-center relative overflow-hidden">
+    <!-- Grille de fond -->
+    <div class="absolute inset-0 opacity-20">
+      <div class="absolute inset-0" style="background-image: linear-gradient(to right, white 1px, transparent 1px), linear-gradient(to bottom, white 1px, transparent 1px); background-size: 100px 100px;"></div>
+    </div>
+    
+    <div class="max-w-3xl mx-auto relative z-10">
       <div class="inline-block bg-accent text-gray-900 px-4 py-2 rounded-xl font-semibold text-base md:px-8 md:py-3 md:rounded-2xl md:text-xl mb-8 shadow-lg tracking-wide">
         FORMATION PRO
       </div>
