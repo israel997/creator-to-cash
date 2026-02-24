@@ -40,11 +40,11 @@ const calculateCountdown = () => {
 }
 
 const handleScroll = () => {
-  // Obtenir la position de la section ProblemsSection
-  const problemsSection = document.querySelector('section:nth-child(2)') // La section après Hero
-  if (problemsSection) {
-    const rect = problemsSection.getBoundingClientRect()
-    // Afficher la barre quand on atteint la section problèmes
+  // Obtenir la position de l'image après ProblemsSection
+  const imageDiv = document.querySelector('div.w-full.my-0')
+  if (imageDiv) {
+    const rect = imageDiv.getBoundingClientRect()
+    // Afficher la barre quand on atteint l'image
     isVisible.value = rect.top <= 0
   }
 }
