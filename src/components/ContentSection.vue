@@ -2,7 +2,7 @@ y<template>
   <section class="py-20 px-5 bg-gray-50">
     <div class="max-w-6xl mx-auto">
       <h2 class="text-4xl font-bold text-center mb-12 text-gray-900">
-        <span v-if="userName" class="text-blue-900">{{ userName }}</span><span v-if="userName">, v</span><span v-else>V</span>oici ce que vous allez apprendre
+        Voici ce que vous allez apprendre :
       </h2>
       
       <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">

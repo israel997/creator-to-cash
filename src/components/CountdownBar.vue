@@ -40,12 +40,12 @@ const calculateCountdown = () => {
 }
 
 const handleScroll = () => {
-  // Obtenir la position de l'image après ProblemsSection
-  const imageDiv = document.querySelector('div.w-full.my-0')
-  if (imageDiv) {
-    const rect = imageDiv.getBoundingClientRect()
-    // Afficher la barre quand on atteint l'image
-    isVisible.value = rect.top <= 0
+  // Obtenir la section ProblemsSection
+  const problemsSection = document.querySelector('section')?.nextElementSibling
+  if (problemsSection) {
+    const rect = problemsSection.getBoundingClientRect()
+    // Afficher la barre quand on a dépassé la fin de la section problèmes
+    isVisible.value = rect.bottom <= window.innerHeight
   }
 }
 

@@ -2,7 +2,7 @@
   <section class="py-20 px-5 bg-gray-200">
     <div class="max-w-4xl mx-auto">
       <h2 class="text-4xl font-bold text-center mb-12 text-gray-900">
-        <span v-if="userName" class="text-blue-900">{{ userName }}</span><span v-if="userName">, a</span><span v-else>A</span>près cette formation, vous saurez :
+        Après cette formation, vous saurez :
       </h2>
       
       <div class="flex flex-col gap-6">

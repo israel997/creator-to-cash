@@ -9,6 +9,7 @@
       <img src="/images/22.png" alt="Illustration formation IA mobile" class="w-full h-auto object-cover shadow-xl sm:hidden" />
     </div>
     <TransformationSection />
+    <ResultsSection />
     <ContentSection />
     <TargetAudienceSection />
     <CredibilitySection />
@@ -24,6 +25,7 @@ import NameModal from './NameModal.vue'
 import CountdownBar from './CountdownBar.vue'
 import HeroSection from './HeroSection.vue'
 import ProblemsSection from './ProblemsSection.vue'
+import ResultsSection from './ResultsSection.vue'
 import TransformationSection from './TransformationSection.vue'
 import ContentSection from './ContentSection.vue'
 import TargetAudienceSection from './TargetAudienceSection.vue'
