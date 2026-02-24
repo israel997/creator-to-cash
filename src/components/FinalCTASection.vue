@@ -48,9 +48,10 @@
 
       <div class="bg-accent/10 border-2 border-accent/30 rounded-xl p-8">
         <p class="text-lg leading-relaxed text-white/95">
-          <strong class="text-accent">Encore hésitant ?</strong> Posez-vous la question : 
+          <span v-if="userName" class="text-accent font-bold">{{ userName }}, </span><strong class="text-accent">vous hésitez encore ?</strong><br>
+          Posez-vous la question : 
           combien de temps et d'opportunités perdez-vous chaque semaine 
-          à ne pas publier régulièrement du contenu de qualité ?
+          à ne pas monétiser votre présence sur internet ?
         </p>
       </div>
     </div>
@@ -58,6 +59,9 @@
 </template>
 
 <script setup>
+import { useUserName } from '../composables/useUserName'
+
+const { userName } = useUserName()
 </script>
 
 <style scoped>
