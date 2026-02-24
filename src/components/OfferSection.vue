@@ -103,58 +103,22 @@
           </div>
 
           <a href="https://formations-pro.mymaketou.store/products/devenir-pro-en-creation-de-contenu-ia" target="_blank" rel="noopener" class="w-full inline-block text-center bg-blue-700 text-white text-lg md:text-xl font-bold py-4 md:py-5 px-4 md:px-10 rounded-2xl md:rounded-full hover:scale-105 hover:shadow-2xl hover:shadow-[#764ba2]/40 transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-700 animate-bounce [animation-duration:1.5s]">
-                      Oui, je veux accéder à la formation pour 8 999 FCFA
+                      Oui, je veux accéder à la formation pour 30 000 FCFA
                     </a>
         </div>
-      </div>
-
-      <div class="mt-8 rounded-xl p-6">
-        <div class="flex justify-between items-center mb-3">
-          <span class="text-lg font-bold text-gray-900">Places disponibles</span>
-          <span class="text-lg font-bold text-red-600">{{ takenPlaces }}/{{ totalPlaces }}</span>
-        </div>
-        <div class="w-full bg-gray-300 rounded-full h-4 relative">
-          <div 
-            class="bg-red-600 h-full transition-all duration-300 rounded-full"
-            :style="{ width: progressPercentage + '%' }"
-          ></div>
-        </div>
-        <p class="text-sm text-gray-600 mt-3 text-center">Seulement {{ totalPlaces - takenPlaces }} places restantes !</p>
       </div>
     </div>
   </section>
 </template>
 
 <script setup>
-import { ref, computed, onMounted, onUnmounted } from 'vue'
+import { ref, onMounted, onUnmounted } from 'vue'
 import { useUserName } from '../composables/useUserName'
 
 const { userName } = useUserName()
 
 const countdown = ref('')
 let intervalId = null
-
-const totalPlaces = ref(135)
-const takenPlaces = ref(120)
-
-// Date de départ: 21 février 2026 00:00:00
-const startDate = new Date('2026-02-21T00:00:00').getTime()
-const initialTakenPlaces = 120
-const decrementInterval = 4 * 60 * 60 * 1000 // 4 heures en millisecondes
-
-const calculateTakenPlaces = () => {
-  const now = new Date().getTime()
-  const elapsed = now - startDate
-  const periods = Math.floor(elapsed / decrementInterval)
-  
-  // Augmenter le nombre de places prises (pas dépasser 135)
-  const newTakenPlaces = Math.min(initialTakenPlaces + periods, totalPlaces.value)
-  takenPlaces.value = newTakenPlaces
-}
-
-const progressPercentage = computed(() => {
-  return (takenPlaces.value / totalPlaces.value) * 100
-})
 
 // Date fixe: jusqu'au 26 février 2026
 const targetDate = new Date('2026-02-26T23:59:59').getTime()
@@ -180,10 +144,6 @@ const calculateCountdown = () => {
 onMounted(() => {
   calculateCountdown()
   intervalId = setInterval(calculateCountdown, 1000)
-  
-  calculateTakenPlaces()
-  // Mettre à jour toutes les minutes pour vérifier
-  setInterval(calculateTakenPlaces, 60000)
 })
 
 onUnmounted(() => {

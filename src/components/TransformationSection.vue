@@ -66,57 +66,15 @@
           </div>
         </div>
       </div>
-
-      <div class="mt-8 bg-transparent rounded-xl p-6">
-        <div class="flex justify-between items-center mb-3">
-          <span class="text-lg font-bold text-gray-900">Places disponibles</span>
-          <span class="text-lg font-bold text-red-600">{{ takenPlaces }}/{{ totalPlaces }}</span>
-        </div>
-        <div class="w-full bg-gray-300 rounded-full h-4 relative">
-          <div 
-            class="bg-red-600 h-full transition-all duration-300 rounded-full"
-            :style="{ width: progressPercentage + '%' }"
-          ></div>
-        </div>
-        <p class="text-sm text-gray-600 mt-3 text-center">Seulement {{ totalPlaces - takenPlaces }} places restantes !</p>
-      </div>
     </div>
   </section>
 </template>
 
 <script setup>
-import { ref, computed, onMounted } from 'vue'
+import { ref, onMounted } from 'vue'
 import { useUserName } from '../composables/useUserName'
 
 const { userName } = useUserName()
-
-const totalPlaces = ref(135)
-const takenPlaces = ref(120)
-
-// Date de départ: 21 février 2026 00:00:00
-const startDate = new Date('2026-02-21T00:00:00').getTime()
-const initialTakenPlaces = 120
-const decrementInterval = 4 * 60 * 60 * 1000 // 4 heures en millisecondes
-
-const calculateTakenPlaces = () => {
-  const now = new Date().getTime()
-  const elapsed = now - startDate
-  const periods = Math.floor(elapsed / decrementInterval)
-  
-  // Augmenter le nombre de places prises (pas dépasser 135)
-  const newTakenPlaces = Math.min(initialTakenPlaces + periods, totalPlaces.value)
-  takenPlaces.value = newTakenPlaces
-}
-
-const progressPercentage = computed(() => {
-  return (takenPlaces.value / totalPlaces.value) * 100
-})
-
-onMounted(() => {
-  calculateTakenPlaces()
-  // Mettre à jour toutes les minutes pour vérifier
-  setInterval(calculateTakenPlaces, 60000)
-})
 </script>
 
 <style scoped>

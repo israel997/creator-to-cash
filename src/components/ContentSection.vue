@@ -55,7 +55,8 @@ y<template>
         <ul class="inline-block text-left space-y-3">
           <li class="text-lg font-semibold pl-8 relative before:content-['✓'] before:absolute before:left-0 before:text-2xl">50+ prompts prêts à l'emploi pour LinkedIn, Instagram et Facebook</li>
           <li class="text-lg font-semibold pl-8 relative before:content-['✓'] before:absolute before:left-0 before:text-2xl">Templates de posts à personnaliser</li>
-          <li class="text-lg font-semibold pl-8 relative before:content-['✓'] before:absolute before:left-0 before:text-2xl">14 jours de challenge pour maitriser l'IA et la création de contenu</li>
+          <li class="text-lg font-semibold pl-8 relative before:content-['✓'] before:absolute before:left-0 before:text-2xl">30 jours d'accompagnement pour vous positionner</li>
+          <li class="text-lg font-semibold pl-8 relative before:content-['✓'] before:absolute before:left-0 before:text-2xl">Statut <span class="underline">PRIVILÈGE</span> dans ma communauté</li>
         </ul>
       </div>
     </div>

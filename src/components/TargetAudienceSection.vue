@@ -17,9 +17,9 @@
           </h3>
           <ul class="space-y-4">
             <li class="text-gray-700 leading-relaxed pl-8 relative before:content-['✓'] before:absolute before:left-0 before:text-2xl before:text-green-500 before:font-bold">Vous êtes entrepreneur, freelance ou créateur de contenu</li>
-            <li class="text-gray-700 leading-relaxed pl-8 relative before:content-['✓'] before:absolute before:left-0 before:text-2xl before:text-green-500 before:font-bold">Vous cherchez une compétence pour faire des revenus réguliers</li>
+            <li class="text-gray-700 leading-relaxed pl-8 relative before:content-['✓'] before:absolute before:left-0 before:text-2xl before:text-green-500 before:font-bold">Vous visez les 1M de revenus d'ici décembre</li>
             <li class="text-gray-700 leading-relaxed pl-8 relative before:content-['✓'] before:absolute before:left-0 before:text-2xl before:text-green-500 before:font-bold">Vous voulez être visible sur les réseaux sans y passer des heures</li>
-            <li class="text-gray-700 leading-relaxed pl-8 relative before:content-['✓'] before:absolute before:left-0 before:text-2xl before:text-green-500 before:font-bold">Vous êtes débutant et vous voulez apprendreà utiliser les IA</li>
+            <li class="text-gray-700 leading-relaxed pl-8 relative before:content-['✓'] before:absolute before:left-0 before:text-2xl before:text-green-500 before:font-bold">Vous souhaitez maitriser les Business 3.0 (agents et outils IA)</li>
             <li class="text-gray-700 leading-relaxed pl-8 relative before:content-['✓'] before:absolute before:left-0 before:text-2xl before:text-green-500 before:font-bold">Vous voulez un système simple et reproductible</li>
           </ul>
         </div>
@@ -36,7 +36,7 @@
           <ul class="space-y-4">
             <li class="text-gray-700 leading-relaxed pl-8 relative before:content-['✗'] before:absolute before:left-0 before:text-2xl before:text-red-500 before:font-bold">Vous cherchez une solution magique sans effort</li>
             <li class="text-gray-700 leading-relaxed pl-8 relative before:content-['✗'] before:absolute before:left-0 before:text-2xl before:text-red-500 before:font-bold">Vous ne voulez pas faire un minimum d'effort pour apprendre</li>
-            <li class="text-gray-700 leading-relaxed pl-8 relative before:content-['✗'] before:absolute before:left-0 before:text-2xl before:text-red-500 before:font-bold">Vous êtes déjà à l'aise financièrement</li>
+            <li class="text-gray-700 leading-relaxed pl-8 relative before:content-['✗'] before:absolute before:left-0 before:text-2xl before:text-red-500 before:font-bold">Vous êtes déjà à l'aise financièrement et sans ambition</li>
             <li class="text-gray-700 leading-relaxed pl-8 relative before:content-['✗'] before:absolute before:left-0 before:text-2xl before:text-red-500 before:font-bold">Vous êtes un expert en IA et création de contenu</li>
           </ul>
         </div>
