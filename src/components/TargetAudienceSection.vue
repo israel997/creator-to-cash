@@ -1,7 +1,9 @@
 <template>
   <section class="py-20 px-5 bg-[#1e293b]">
     <div class="max-w-5xl mx-auto">
-      <h2 class="text-5xl font-bold text-center mb-12 text-white">Cette formation est-elle pour vous ?</h2>
+      <h2 class="text-5xl font-bold text-center mb-12 text-white">
+        <span v-if="userName" class="text-blue-900">{{ userName }}</span><span v-if="userName">, c</span><span v-else>C</span>ette formation est-elle pour vous ?
+      </h2>
       
       <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
         <div class="p-10 rounded-2xl border-4 border-green-500 bg-green-50">
@@ -44,6 +46,8 @@
 </template>
 
 <script setup>
+import { useUserName } from '../composables/useUserName'
+const { userName } = useUserName()
 </script>
 
 <style scoped>

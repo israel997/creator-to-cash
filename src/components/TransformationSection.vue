@@ -1,7 +1,9 @@
 <template>
   <section class="py-20 px-5 bg-gray-200">
     <div class="max-w-4xl mx-auto">
-      <h2 class="text-4xl font-bold text-center mb-12 text-gray-900">Après cette formation, vous saurez :</h2>
+      <h2 class="text-4xl font-bold text-center mb-12 text-gray-900">
+        <span v-if="userName" class="text-blue-900">{{ userName }}</span><span v-if="userName">, a</span><span v-else>A</span>près cette formation, vous saurez :
+      </h2>
       
       <div class="flex flex-col gap-6">
         <div class="flex gap-5 items-start p-6 bg-gray-50 rounded-xl border-l-4 border-green-500">
@@ -84,6 +86,9 @@
 
 <script setup>
 import { ref, computed, onMounted } from 'vue'
+import { useUserName } from '../composables/useUserName'
+
+const { userName } = useUserName()
 
 const totalPlaces = ref(135)
 const takenPlaces = ref(120)

@@ -1,7 +1,9 @@
 <template>
   <section class="py-20 px-5 bg-gray-200">
     <div class="max-w-4xl mx-auto">
-      <h2 class="text-4xl font-bold text-center mb-12 text-gray-900">Ce que vous recevez aujourd'hui</h2>
+      <h2 class="text-4xl font-bold text-center mb-12 text-gray-900">
+        <span v-if="userName" class="text-blue-900">{{ userName }}</span><span v-if="userName">, v</span><span v-else>V</span>oici ce que vous recevez aujourd'hui
+      </h2>
       
       <div class="bg-gray-50 border-4 border-primary rounded-3xl p-12">
         <div class="flex flex-col gap-5 mb-10">
@@ -18,8 +20,8 @@
           </div>
 
           <div class="flex gap-4 items-start p-5 bg-white rounded-xl border border-gray-300">
-            <div class="w-12 h-12 flex-shrink-0 bg-yellow-100 rounded-lg flex items-center justify-center">
-              <svg class="w-6 h-6 text-yellow-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <div class="w-12 h-12 flex-shrink-0 bg-yellow-600 rounded-lg flex items-center justify-center">
+              <svg class="w-6 h-6 text-yellow-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
               </svg>
             </div>
@@ -84,7 +86,7 @@
               <span class="block text-sm font-semibold uppercase tracking-wider text-gray-600 mb-2">Prix normal</span>
               <span class="block text-2xl font-bold line-through text-gray-400">40 000 FCFA</span>
             </div>
-            <div class="text-center p-6 bg-gradient-to-r from-accent to-yellow-400 rounded-xl">
+            <div class="text-center p-6 bg-gradient-to-r from-accent to-yellow-300 rounded-xl">
               <span class="block text-sm font-semibold uppercase tracking-wider text-gray-900 mb-2">Prix promo</span>
               <span class="block text-4xl font-black text-gray-900 mb-2">8 999 FCFA</span>
               <span class="block text-sm font-semibold text-red-800">Vous économisez 31 000 FCFA</span>
@@ -125,6 +127,9 @@
 
 <script setup>
 import { ref, computed, onMounted, onUnmounted } from 'vue'
+import { useUserName } from '../composables/useUserName'
+
+const { userName } = useUserName()
 
 const countdown = ref('')
 let intervalId = null

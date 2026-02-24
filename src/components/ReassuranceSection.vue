@@ -1,12 +1,14 @@
 <template>
   <section class="py-20 px-5 bg-gray-50">
     <div class="max-w-6xl mx-auto">
-      <h2 class="text-4xl font-bold text-center mb-12 text-gray-900">Vos garanties</h2>
+      <h2 class="text-4xl font-bold text-center mb-12 text-gray-900">
+        <span v-if="userName" class="text-blue-900">{{ userName }}</span><span v-if="userName">, v</span><span v-else>V</span>os garanties
+      </h2>
       
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
         <div class="bg-white p-9 rounded-xl text-center shadow-md hover:shadow-xl hover:-translate-y-1 transition-all border border-gray-300">
-          <div class="w-16 h-16 mx-auto mb-5 bg-yellow-100 rounded-full flex items-center justify-center">
-            <svg class="w-8 h-8 text-yellow-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <div class="w-16 h-16 mx-auto mb-5 bg-yellow-600 rounded-full flex items-center justify-center">
+            <svg class="w-8 h-8 text-yellow-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
             </svg>
           </div>
@@ -76,6 +78,8 @@
 </template>
 
 <script setup>
+import { useUserName } from '../composables/useUserName'
+const { userName } = useUserName()
 </script>
 
 <style scoped>

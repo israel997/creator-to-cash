@@ -1,7 +1,9 @@
 y<template>
   <section class="py-20 px-5 bg-gray-50">
     <div class="max-w-6xl mx-auto">
-      <h2 class="text-4xl font-bold text-center mb-12 text-gray-900">Ce que vous allez apprendre</h2>
+      <h2 class="text-4xl font-bold text-center mb-12 text-gray-900">
+        <span v-if="userName" class="text-blue-900">{{ userName }}</span><span v-if="userName">, v</span><span v-else>V</span>oici ce que vous allez apprendre
+      </h2>
       
       <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
         <div class="bg-gray-300 p-8 rounded-xl shadow-md">
@@ -41,7 +43,7 @@ y<template>
         </div>
       </div>
 
-      <div class="bg-gradient-to-r from-accent to-yellow-400 p-10 rounded-2xl text-center text-gray-900">
+      <div class="bg-gradient-to-r from-accent to-yellow-300 p-10 rounded-2xl text-center text-gray-900">
         <h3 class="text-3xl font-bold mb-5">
           <span class="inline-block w-10 h-10 bg-white rounded-full mr-2 align-middle">
             <svg class="w-6 h-6 text-accent inline mt-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -61,6 +63,8 @@ y<template>
 </template>
 
 <script setup>
+import { useUserName } from '../composables/useUserName'
+const { userName } = useUserName()
 </script>
 
 <style scoped>

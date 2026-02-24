@@ -6,16 +6,16 @@
       </div>
       
       <h1 class="text-5xl md:text-6xl lg:text-6xl font-black leading-tight mb-7">
-       Création de contenu + IA
+       CREATOR TO CASH
       </h1>
       
       <p class="text-lg md:text-xl leading-relaxed mb-10 opacity-95">
-        Maitrisez la Création de Contenu et l'IA pour proposer des services
+        Business Suit 3.0 + Accompagnement pro
       </p>
 
       <div class="bg-white/15 backdrop-blur-lg rounded-2xl p-8 mb-8">
-        <div class="text-3xl line-through text-white decoration-red-600 decoration-2 opacity-100 font mb-2">40 000 FCFA</div>
-        <div class="text-5xl md:text-6xl font-black text-accent mb-2">8 999 FCFA</div>
+        <div class="text-3xl line-through text-white decoration-red-600 decoration-2 opacity-100 font mb-2">75 000 FCFA</div>
+        <div class="text-5xl md:text-6xl font-black text-accent mb-2">30 000 FCFA</div>
         <div class="text-base font-semibold uppercase tracking-wider mb-2">Offre limitée - Expire dans</div>
         <div class="text-2xl md:text-3xl font-bold text-red-500">{{ countdown }}</div>
       </div>
