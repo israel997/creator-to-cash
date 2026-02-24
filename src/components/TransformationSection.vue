@@ -38,7 +38,7 @@
           </div>
           <div>
             <h3 class="text-xl font-bold mb-2 text-gray-900">Gagner jusqu'à 100 000 FCFA par mois</h3>
-            <p class="text-gray-600 leading-relaxed">En proposant des services IA au public</p>
+            <p class="text-gray-600 leading-relaxed">En proposant des services sur Chariow et Maketou</p>
           </div>
         </div>
 

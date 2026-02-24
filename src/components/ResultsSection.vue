@@ -6,7 +6,7 @@
       </h1>
       
       <h2 class="text-2xl md:text-3xl font-bold text-center mb-10 text-gray-700">
-        Voici mes résultats sur les 5 dernières semaines
+        Mes résultats sur les 5 dernières semaines
       </h2>
 
       <div class="w-full my-0">
