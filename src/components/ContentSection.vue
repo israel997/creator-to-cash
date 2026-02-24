@@ -35,10 +35,10 @@ y<template>
 
         <div class="bg-gray-300 p-8 rounded-xl shadow-md">
           <div class="inline-block bg-blue-700 text-white px-4 py-1.5 rounded-full text-sm font-semibold mb-4">Module 4</div>
-          <h3 class="text-xl font-bold mb-4 text-gray-900">Application pratique</h3>
+          <h3 class="text-xl font-bold mb-4 text-gray-900">Application sur Chariow eet Maketou</h3>
           <ul class="space-y-3">
-            <li class="text-gray-900 pl-6 relative before:content-['→'] before:absolute before:left-0 before:text-gray-900 before:font-bold">Créer des produits digitaux</li>
-            <li class="text-gray-900 pl-6 relative before:content-['→'] before:absolute before:left-0 before:text-gray-900 before:font-bold">Vendre ses compétences</li>
+            <li class="text-gray-900 pl-6 relative before:content-['→'] before:absolute before:left-0 before:text-gray-900 before:font-bold">Trouver son positionnement et créer des produits digitaux</li>
+            <li class="text-gray-900 pl-6 relative before:content-['→'] before:absolute before:left-0 before:text-gray-900 before:font-bold">Vendre efficacement et atteindre 1M</li>
           </ul>
         </div>
       </div>
