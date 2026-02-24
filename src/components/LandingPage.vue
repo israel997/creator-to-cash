@@ -1,6 +1,7 @@
 <template>
   <div class="w-full">
     <NameModal />
+    <CountdownBar />
     <HeroSection />
     <ProblemsSection />
     <div class="w-full my-0">
@@ -20,6 +21,7 @@
 
 <script setup>
 import NameModal from './NameModal.vue'
+import CountdownBar from './CountdownBar.vue'
 import HeroSection from './HeroSection.vue'
 import ProblemsSection from './ProblemsSection.vue'
 import TransformationSection from './TransformationSection.vue'
