@@ -7,7 +7,7 @@
     
     <div class="max-w-5xl mx-auto relative z-10">
       <h2 class="text-5xl font-bold text-center mb-12 text-white">
-        <span v-if="userName" class="text-blue-900">{{ userName }}</span><span v-if="userName">, c</span><span v-else>C</span>ette formation est-elle pour vous ?
+        <span v-if="userName" class="text-blue-400">{{ userName }}</span><span v-if="userName">, c</span><span v-else>C</span>ette formation est-elle pour vous ?
       </h2>
       
       <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
