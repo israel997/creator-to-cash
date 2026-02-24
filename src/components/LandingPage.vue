@@ -17,6 +17,7 @@
     <OfferSection />
     <ReassuranceSection />
     <FinalCTASection />
+    <WhatsAppButton />
   </div>
 </template>
 
@@ -34,6 +35,7 @@ import TestimonialSection from './TestimonialSection.vue'
 import OfferSection from './OfferSection.vue'
 import ReassuranceSection from './ReassuranceSection.vue'
 import FinalCTASection from './FinalCTASection.vue'
+import WhatsAppButton from './WhatsAppButton.vue'
 </script>
 
 <style scoped>

@@ -7,7 +7,7 @@
     
     <div class="max-w-6xl mx-auto relative z-10">
       <h2 class="text-4xl font-bold text-center mb-12 text-white">
-        <span v-if="userName" class="text-blue-400">{{ userName }}</span><span v-if="userName">, i</span><span v-else>I</span>ls ont suivi la formation
+        Ils ont aussi suivi la formation
       </h2>
       <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
         <img src="/images/3.png" alt="Témoignage 1" class="w-full h-auto object-contain rounded-xl shadow-lg border-4 border-accent" />
