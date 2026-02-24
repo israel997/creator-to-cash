@@ -26,7 +26,7 @@
               </svg>
             </div>
             <div>
-              <strong class="block text-lg font-bold text-gray-900">10+ liens d'accès</strong>
+              <strong class="block text-lg font-bold text-gray-900">10+ liens de ressources</strong>
               <p class="text-gray-600">Pour Sora, Veo 3, NotebookLM, Perplexity</p>
             </div>
           </div>

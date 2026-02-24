@@ -4,9 +4,9 @@
     <CountdownBar />
     <HeroSection />
     <ProblemsSection />
-    <div class="w-full my-0">
-      <img src="/images/21.png" alt="Illustration formation IA" class="w-full h-auto object-cover shadow-xl hidden sm:block" />
-      <img src="/images/22.png" alt="Illustration formation IA mobile" class="w-full h-auto object-cover shadow-xl sm:hidden" />
+    <div class="w-full my-0 overflow-hidden">
+      <img src="/images/21.png" alt="Illustration formation IA" class="w-full h-auto object-cover shadow-xl hidden sm:block transform scale-110" />
+      <img src="/images/21.png" alt="Illustration formation IA mobile" class="w-full h-auto object-cover shadow-xl sm:hidden transform scale-150" />
     </div>
     <TransformationSection />
     <ResultsSection />
