@@ -7,7 +7,7 @@
       
       <div class="flex flex-col gap-10">
         <div class="text-center p-8 bg-white rounded-2xl shadow-md">
-          <img src="/images/19.png" alt="Profil" class="w-28 h-28 mx-auto mb-4 rounded-full object-cover">
+          <img src="/images/19.png" alt="Profil" class="w-56 h-56 mx-auto mb-4 rounded-full object-cover object-top">
           <h3 class="text-3xl font-bold text-gray-900">Consultant en croissance business & Tech Lead</h3>
         </div>
 
@@ -20,7 +20,7 @@
             </div>
             <div>
               <strong class="block text-lg font-bold text-gray-900 mb-2">Actif depuis 8 ans</strong>
-              <p class="text-gray-600">Je crée du contenu et je gagne l'argent depuis 2017 notamment via la rédaction web et mes accompagnements professionnels</p>
+              <p class="text-gray-600">Je suis Israël Oriadé. Je crée du contenu et je gagne l'argent depuis 2017 notamment via la rédaction web et mes accompagnements professionnels</p>
             </div>
           </div>
 
