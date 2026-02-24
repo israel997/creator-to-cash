@@ -1,5 +1,8 @@
 <template>
-  <div v-show="isVisible" class="fixed bottom-0 left-0 right-0 bg-gradient-to-br from-[#0c1844] to-blue-500 text-white py-4 px-5 shadow-2xl z-50 border-t-4 border-accent">
+  <div 
+    class="fixed bottom-0 left-0 right-0 bg-gradient-to-br from-[#0c1844] to-blue-500 text-white py-4 px-5 shadow-2xl z-50 border-t-4 border-accent transition-transform duration-500 ease-out"
+    :class="isVisible ? 'translate-y-0' : 'translate-y-full'"
+  >
     <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-center gap-3 md:gap-6">
       <div class="text-lg md:text-xl font-bold uppercase tracking-wide">
         On démarre dans

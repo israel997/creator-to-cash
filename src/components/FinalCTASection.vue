@@ -1,6 +1,11 @@
 <template>
-  <section class="py-24 px-5 bg-gradient-to-br from-gray-900 to-gray-800 text-white text-center">
-    <div class="max-w-4xl mx-auto">
+  <section class="py-24 px-5 bg-gradient-to-br from-[#0c1844] to-blue-800 text-white text-center relative overflow-hidden">
+    <!-- Grille de fond -->
+    <div class="absolute inset-0 opacity-20">
+      <div class="absolute inset-0" style="background-image: linear-gradient(to right, white 1px, transparent 1px), linear-gradient(to bottom, white 1px, transparent 1px); background-size: 100px 100px;"></div>
+    </div>
+    
+    <div class="max-w-4xl mx-auto relative z-10">
       <h2 class="text-4xl md:text-5xl font-extrabold mb-5 leading-tight">Prêt à maximiser votre création de contenu ?</h2>
       
       <p class="text-xl leading-relaxed mb-12 opacity-90">

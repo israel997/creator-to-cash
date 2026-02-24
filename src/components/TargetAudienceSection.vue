@@ -1,6 +1,11 @@
 <template>
-  <section class="py-20 px-5 bg-[#1e293b]">
-    <div class="max-w-5xl mx-auto">
+  <section class="py-20 px-5 bg-gradient-to-br from-[#0c1844] to-blue-800 relative overflow-hidden">
+    <!-- Grille de fond -->
+    <div class="absolute inset-0 opacity-20">
+      <div class="absolute inset-0" style="background-image: linear-gradient(to right, white 1px, transparent 1px), linear-gradient(to bottom, white 1px, transparent 1px); background-size: 100px 100px;"></div>
+    </div>
+    
+    <div class="max-w-5xl mx-auto relative z-10">
       <h2 class="text-5xl font-bold text-center mb-12 text-white">
         <span v-if="userName" class="text-blue-900">{{ userName }}</span><span v-if="userName">, c</span><span v-else>C</span>ette formation est-elle pour vous ?
       </h2>
